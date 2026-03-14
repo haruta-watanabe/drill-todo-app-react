@@ -3,7 +3,7 @@
   margin: 64px auto 16px;
 }
 
-.form > div {
+.form>div {
   display: flex;
   gap: 8px;
   margin-top: 4px;
@@ -83,4 +83,17 @@ li button {
 
 li button:hover {
   background: rgba(0 0 0 / 0.4);
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.time-over {
+  background: rgb(250, 8, 8);
 }
